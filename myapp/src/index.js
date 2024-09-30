@@ -22,7 +22,10 @@ const appRouter = createBrowserRouter(
       element: <About />
     },{
       path:'contact',
-      element:<Contact/>}
+      element:<Contact/>},
+      {
+      path:'name',
+        element:<Name/>
     ]
   }]
 )
